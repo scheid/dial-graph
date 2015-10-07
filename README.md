@@ -10,3 +10,4 @@ I implemented this in d3js, and the example files here intentionally do not use 
 to keep it simple and understandable.
 
 You can read the detailed paper at: http://www.toddeischeid.com/#!/designs/health-dials
+
