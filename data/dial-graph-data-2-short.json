@@ -1,0 +1,103 @@
+[
+
+    {
+        "label": "Total Cholesterol",
+        "score": 17,
+        "previousScore":15,
+        "previousScoreDaysAgo":30,
+        "healthTrend":"-1",
+        "value": "230 mg/dl",
+        "actual": 140,
+        "weight": 5.3,
+        "details": [
+            {
+                "label": "LDL",
+                "score": 20,
+                "value": "136.25 mg/dl",
+                "actual": 136.2493573501706,
+                "weight": 9
+            },
+            {
+                "label": "HDL",
+                "score": 17,
+                "value": "128.87 mg/dl",
+                "actual": 128.86818417115137,
+                "weight": 4
+            },
+            {
+                "label": "Triglycerides",
+                "score": 8,
+                "value": "402.80 mg/dl",
+                "actual": 402.80448105186224,
+                "weight": 3
+            }
+        ]
+    },
+    {
+        "label": "Sleep",
+        "score": 10,
+        "previousScore":8,
+        "previousScoreDaysAgo":30,
+        "healthTrend":"1",
+        "value": "9 hours/night",
+        "weight": 5
+    },
+    {
+        "label": "Exercise",
+        "score": 20,
+        "previousScore":20,
+        "previousScoreDaysAgo":30,
+        "healthTrend":"0",
+        "value": "7 hours/week",
+        "weight": 5
+    },
+
+    {
+        "label": "Glucose",
+        "score": 19,
+        "previousScore":21,
+        "previousScoreDaysAgo":30,
+        "healthTrend":"1",
+        "value": "144 mg/dl",
+        "weight": 10,
+        "metrics": ["glucose"]
+    },
+    {
+        "label": "Blood Pressure",
+        "score": 3,
+        "previousScore":7,
+        "previousScoreDaysAgo":30,
+        "healthTrend":"-1",
+        "value": "120/90 mm/Hg",
+        "actual": 0,
+        "weight": 5,
+        "details": [
+            {
+                "label": "Systolic",
+                "score": 3,
+                "value": "120 mm/Hg",
+                "weight": 5,
+                "actual": 120
+            },
+            {
+                "label": "Diastolic",
+                "score": 20,
+                "value": "90 mm/Hg",
+                "weight": 5,
+                "actual": 90
+            }
+        ],
+        "metrics": ["bpsys", "bpdia"]
+    },
+
+
+    {
+        "label": "Waist Circumference",
+        "score": 14,
+        "previousScore":16,
+        "healthTrend":"1",
+        "previousScoreDaysAgo":30,
+        "value": "34 inches",
+        "weight": 10
+    }
+]

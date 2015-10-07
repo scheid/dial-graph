@@ -1,0 +1,60 @@
+[
+    {
+        "label": "Heart Rate",
+        "score": -45,
+        "previousScore":-33,
+        "previousScoreDaysAgo":30,
+        "healthTrend":"1",
+        "value": "55 BPM",
+        "weight": 3
+    },
+
+    {
+        "label": "Respiration",
+        "score": -40,
+        "previousScore":-50,
+        "previousScoreDaysAgo":30,
+        "healthTrend":"1",
+        "value": "10",
+        "weight": 5
+    },
+    {
+        "label": "Body Temperature",
+        "score": 15,
+        "previousScore":19,
+        "previousScoreDaysAgo":30,
+        "healthTrend":"0",
+        "value": "99 F",
+        "weight": 5
+    },
+
+
+
+    {
+        "label": "Blood Pressure",
+        "score": 71,
+        "previousScore":59,
+        "previousScoreDaysAgo":30,
+        "healthTrend":"-1",
+        "value": "145/96 mm/Hg",
+        "actual": 0,
+        "weight": 5,
+        "details": [
+            {
+                "label": "Systolic",
+                "score": 30,
+                "value": "145 mm/Hg",
+                "weight": 5,
+                "actual": 145
+            },
+            {
+                "label": "Diastolic",
+                "score": 15,
+                "value": "96 mm/Hg",
+                "weight": 5,
+                "actual": 96
+            }
+        ],
+        "metrics": ["bpsys", "bpdia"]
+    }
+]
